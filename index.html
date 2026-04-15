@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dev Furniture World – Luxury Furniture for Every Home</title>
+  <meta name="description" content="Dev Furniture World offers premium quality sofas, beds, dining tables and office furniture. Custom designs, free delivery. WhatsApp enquiry welcome!" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;700;900&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="index.html" class="logo">
+        <span class="logo-icon">⬡</span>
+        <span class="logo-text">Dev <em>Furniture</em> World</span>
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <a href="https://wa.me/917069269665?text=Hello Dev Furniture World, I want to know more about your products!" class="btn btn-whatsapp nav-cta" target="_blank">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        WhatsApp
+      </a>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-bg">
+      <div class="hero-shape shape1"></div>
+      <div class="hero-shape shape2"></div>
+      <div class="hero-shape shape3"></div>
+    </div>
+    <div class="container hero-content">
+      <div class="hero-text">
+        <span class="hero-badge">✦ Premium Furniture Since 2010</span>
+        <h1 class="hero-title">Craft Your<br/><em>Dream Space</em><br/>With Us</h1>
+        <p class="hero-sub">Handcrafted furniture that transforms houses into homes. Custom designs, premium materials, delivered to your door.</p>
+        <div class="hero-ctas">
+          <a href="products.html" class="btn btn-primary">Explore Collection</a>
+          <a href="https://wa.me/917069269665?text=Hello Dev Furniture World, I want to explore your products!" class="btn btn-whatsapp" target="_blank">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            WhatsApp Now
+          </a>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="hero-card hero-card-main">
+          <div class="furniture-illustration sofa-hero">
+            <div class="sofa-body"></div>
+            <div class="sofa-back"></div>
+            <div class="sofa-arm arm-left"></div>
+            <div class="sofa-arm arm-right"></div>
+            <div class="sofa-cushion c1"></div>
+            <div class="sofa-cushion c2"></div>
+            <div class="sofa-cushion c3"></div>
+            <div class="sofa-leg leg1"></div>
+            <div class="sofa-leg leg2"></div>
+            <div class="sofa-leg leg3"></div>
+            <div class="sofa-leg leg4"></div>
+          </div>
+          <div class="hero-card-tag">Premium Sofa Collection</div>
+        </div>
+        <div class="hero-card hero-card-sm card-float1">
+          <span class="card-icon">🛏️</span>
+          <span>Luxury Beds</span>
+        </div>
+        <div class="hero-card hero-card-sm card-float2">
+          <span class="card-icon">🪑</span>
+          <span>Office Chairs</span>
+        </div>
+        <div class="hero-stats">
+          <div class="stat"><strong>500+</strong><span>Products</span></div>
+          <div class="stat"><strong>2K+</strong><span>Customers</span></div>
+          <div class="stat"><strong>14yr</strong><span>Experience</span></div>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- CATEGORIES -->
+  <section class="categories section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Browse by Category</span>
+        <h2>Find Your Perfect<br/><em>Furniture</em></h2>
+      </div>
+      <div class="cat-grid">
+        <a href="products.html?cat=sofa" class="cat-card">
+          <div class="cat-icon-wrap">
+            <img src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=400&q=80" alt="Sofas" loading="lazy" />
+          </div>
+          <div class="cat-card-info">
+            <h3>Sofas</h3>
+            <p>48 Products</p>
+          </div>
+        </a>
+        <a href="products.html?cat=bed" class="cat-card">
+          <div class="cat-icon-wrap">
+            <img src="https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=400&q=80" alt="Beds" loading="lazy" />
+          </div>
+          <div class="cat-card-info">
+            <h3>Beds</h3>
+            <p>36 Products</p>
+          </div>
+        </a>
+        <a href="products.html?cat=dining" class="cat-card">
+          <div class="cat-icon-wrap">
+            <img src="https://images.unsplash.com/photo-1617806118233-18e1de247200?w=400&q=80" alt="Dining Tables" loading="lazy" />
+          </div>
+          <div class="cat-card-info">
+            <h3>Dining Tables</h3>
+            <p>24 Products</p>
+          </div>
+        </a>
+        <a href="products.html?cat=office" class="cat-card">
+          <div class="cat-icon-wrap">
+            <img src="https://images.unsplash.com/photo-1593642632559-0c6d3fc62b89?w=400&q=80" alt="Office Furniture" loading="lazy" />
+          </div>
+          <div class="cat-card-info">
+            <h3>Office Furniture</h3>
+            <p>32 Products</p>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURED PRODUCTS -->
+  <section class="featured section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Handpicked for You</span>
+        <h2>Featured <em>Products</em></h2>
+        <a href="products.html" class="see-all">See All →</a>
+      </div>
+      <div class="products-grid" id="featuredGrid">
+        <!-- Cards injected by JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- WHY CHOOSE US -->
+  <section class="why section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Our Promise</span>
+        <h2>Why Choose <em>Dev Furniture</em>?</h2>
+      </div>
+      <div class="why-grid">
+        <div class="why-card">
+          <div class="why-icon">🏆</div>
+          <h3>Premium Quality</h3>
+          <p>Every piece crafted from the finest materials — solid wood, premium fabric, and durable metal frames.</p>
+        </div>
+        <div class="why-card">
+          <div class="why-icon">🎨</div>
+          <h3>Custom Designs</h3>
+          <p>Tell us your vision. We bring it to life with custom sizes, colors, and materials tailored for you.</p>
+        </div>
+        <div class="why-card">
+          <div class="why-icon">🚚</div>
+          <h3>Free Delivery</h3>
+          <p>Doorstep delivery across the city. Safe packaging and on-time commitment, guaranteed.</p>
+        </div>
+        <div class="why-card">
+          <div class="why-icon">🔧</div>
+          <h3>Free Installation</h3>
+          <p>Our team sets up everything at your home, so you don't have to lift a finger.</p>
+        </div>
+        <div class="why-card">
+          <div class="why-icon">💬</div>
+          <h3>24/7 WhatsApp Support</h3>
+          <p>Got questions? Just WhatsApp us. Instant response from our furniture experts.</p>
+        </div>
+        <div class="why-card">
+          <div class="why-icon">🛡️</div>
+          <h3>2-Year Warranty</h3>
+          <p>We stand behind our craftsmanship. All products come with a 2-year structural warranty.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- COUNTERS -->
+  <section class="counters-section">
+    <div class="container">
+      <div class="counters-grid">
+        <div class="counter-item">
+          <strong class="counter" data-target="500">0</strong><span>+</span>
+          <p>Products Available</p>
+        </div>
+        <div class="counter-item">
+          <strong class="counter" data-target="2000">0</strong><span>+</span>
+          <p>Happy Customers</p>
+        </div>
+        <div class="counter-item">
+          <strong class="counter" data-target="14">0</strong><span></span>
+          <p>Years Experience</p>
+        </div>
+        <div class="counter-item">
+          <strong class="counter" data-target="100">0</strong><span>%</span>
+          <p>Satisfaction Rate</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="testimonials section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">What Customers Say</span>
+        <h2>Real Stories, <em>Real Smiles</em></h2>
+      </div>
+      <div class="testi-grid">
+        <div class="testi-card">
+          <div class="testi-stars">★★★★★</div>
+          <p>"The sofa I ordered exceeded all my expectations. The quality is incredible and the delivery was right on time. Highly recommend Dev Furniture!"</p>
+          <div class="testi-author">
+            <div class="testi-avatar">RK</div>
+            <div><strong>Rahul Kapoor</strong><span>Home Customer</span></div>
+          </div>
+        </div>
+        <div class="testi-card featured-testi">
+          <div class="testi-stars">★★★★★</div>
+          <p>"Got my entire office furnished from Dev Furniture World. The custom workstations are beautiful and the team was super helpful throughout the process."</p>
+          <div class="testi-author">
+            <div class="testi-avatar">PS</div>
+            <div><strong>Priya Shah</strong><span>Office Customer</span></div>
+          </div>
+        </div>
+        <div class="testi-card">
+          <div class="testi-stars">★★★★★</div>
+          <p>"Best dining table I've ever bought. Solid wood, perfect finish. The WhatsApp ordering process was so easy. Will definitely buy again!"</p>
+          <div class="testi-author">
+            <div class="testi-avatar">AM</div>
+            <div><strong>Amit Mehta</strong><span>Home Customer</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA BANNER -->
+  <section class="cta-banner">
+    <div class="container">
+      <div class="cta-content">
+        <h2>Ready to Furnish Your Dream Home?</h2>
+        <p>Talk to our experts on WhatsApp. Get personalized recommendations instantly.</p>
+        <a href="https://wa.me/917069269665?text=Hello Dev Furniture World, I want to enquire about furniture!" class="btn btn-whatsapp btn-lg" target="_blank">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          Start WhatsApp Chat
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="logo">
+            <span class="logo-icon">⬡</span>
+            <span class="logo-text">Dev <em>Furniture</em> World</span>
+          </a>
+          <p>Crafting quality furniture since 2010. Your dream home is just a WhatsApp away.</p>
+          <a href="https://wa.me/917069269665" class="btn btn-whatsapp btn-sm" target="_blank">Chat With Us</a>
+        </div>
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Categories</h4>
+          <ul>
+            <li><a href="products.html?cat=sofa">Sofas</a></li>
+            <li><a href="products.html?cat=bed">Beds</a></li>
+            <li><a href="products.html?cat=dining">Dining Tables</a></li>
+            <li><a href="products.html?cat=office">Office Furniture</a></li>
+          </ul>
+        </div>
+        <div class="footer-contact">
+          <h4>Contact Us</h4>
+          <p>📍 Mahadev Nagar, Tantithaiya, Surat – 394305, Gujarat</p>
+          <p>📞 <a href="tel:+917069269665">+91 70692 69665</a></p>
+          <p>📱 <a href="https://wa.me/917069269665" target="_blank">WhatsApp Us</a></p>
+          <p>⏰ Mon–Sat: 10am – 8pm</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2025 Dev Furniture World. All rights reserved.</p>
+        <p>Made with ❤️ in Surat</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- FLOATING WHATSAPP -->
+  <a href="https://wa.me/917069269665?text=Hello Dev Furniture World, I want to enquire about your furniture!" class="whatsapp-float" target="_blank" aria-label="WhatsApp">
+    <svg width="28" height="28" viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+    <span class="wa-pulse"></span>
+  </a>
+
+  <!-- SCROLL TO TOP -->
+  <button class="scroll-top" id="scrollTop" aria-label="Scroll to top">↑</button>
+
+  <script src="main.js"></script>
+</body>
+</html>
